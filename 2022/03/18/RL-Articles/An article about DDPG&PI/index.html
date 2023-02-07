@@ -20,28 +20,42 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="YY&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="In article On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System, DDPG is used to help PI controllers to control system (in this article the target is  main">
+<meta property="og:type" content="article">
+<meta property="og:title" content="An article about DDPG&amp;PI Controllers">
+<meta property="og:url" content="http://example.com/2022/03/18/RL-Articles/An%20article%20about%20DDPG&PI/index.html">
 <meta property="og:site_name" content="YY&#39;s Blog">
+<meta property="og:description" content="In article On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System, DDPG is used to help PI controllers to control system (in this article the target is  main">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif">
+<meta property="og:image" content="https://shuiyuan.sjtu.edu.cn/uploads/default/original/3X/6/6/669b3f0b8c7706c7eebb8cb757200bf4a3b1e3b1.jpeg">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-3-source-small.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-5-source-large.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-6-source-large.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-7-source-large.gif">
+<meta property="article:published_time" content="2022-03-19T01:30:00.000Z">
+<meta property="article:modified_time" content="2022-11-14T14:21:46.914Z">
 <meta property="article:author" content="Yin Yi">
+<meta property="article:tag" content="DDPG">
+<meta property="article:tag" content="PI">
+<meta property="article:tag" content="Water tank system">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2022/03/18/RL-Articles/An%20article%20about%20DDPG&PI/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>YY's Blog</title>
+  <title>An article about DDPG&PI Controllers | YY's Blog</title>
   
 
 
@@ -180,73 +194,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/06/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yin Yi">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="YY's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/02/06/hello-world/" class="post-title-link" itemprop="url">Welcome to my personal blog!</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2023-02-06 21:01:07" itemprop="dateCreated datePublished" datetime="2023-02-06T21:01:07-05:00">2023-02-06</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-11-14 09:21:46" itemprop="dateModified" datetime="2022-11-14T09:21:46-05:00">2022-11-14</time>
-              </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -262,10 +213,9 @@
       <meta itemprop="name" content="YY's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/03/18/RL-Articles/An%20article%20about%20DDPG&PI/" class="post-title-link" itemprop="url">An article about DDPG&PI Controllers</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          An article about DDPG&PI Controllers
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -294,6 +244,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -304,111 +261,66 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>In article <a target="_blank" rel="noopener" href="https://doi.org/10.1109/ICIEA51954.2021.9516140"><em><strong>On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System</strong></em></a>, DDPG is used to help PI controllers to control system (in this article the target is  maintaining the water level).<br>I will just paraphrase DDPG that written in article. But I think another blog should be written to fully explain DDPG since it contains many other algorithm about RL (On condition that I have completely understood DDPG).<br>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/03/18/RL-Articles/An%20article%20about%20DDPG&PI/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+        <p>In article <a target="_blank" rel="noopener" href="https://doi.org/10.1109/ICIEA51954.2021.9516140"><em><strong>On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System</strong></em></a>, DDPG is used to help PI controllers to control system (in this article the target is  maintaining the water level).<br>I will just paraphrase DDPG that written in article. But I think another blog should be written to fully explain DDPG since it contains many other algorithm about RL (On condition that I have completely understood DDPG).<br><span id="more"></span></p>
+<h1 id="The-Model-of-Two-level-Water-Tank-System"><a href="#The-Model-of-Two-level-Water-Tank-System" class="headerlink" title="The Model of Two-level Water Tank System"></a>The Model of Two-level Water Tank System</h1><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif" alt="imagine"><br>In picture above shows the basic structure of Two-level water tank system. For the $l$-th tank, the model is</p>
+<script type="math/tex; mode=display">h_l(t)=\frac{F_{inl}(t)-F_{outl}(t)}{A}</script><p>where $h_l$ is the height level of water, $A$ is the cross-sectional area of the tank, $F_{inl}$ and $F_{outl}$ represent the quantity of input and output water flow, respectively. And the whole system is gravity drained as their output water flow speeds are related to their own height of water level. Actually we can use second-order characteristics to solve this problem, but in RL training we just regard it as a black-box model.</p>
+<h1 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h1><p>The authors used DDPG with traditional PI controllers to maintain the water level, since water tank system is a continuous action space. DDPG (Deep Deterministic Policy Gradient) is a model-free off-policy Actor-Critic algorithm, combining DPG (Deterministic Policy) with DQN (Deep Q-Network). A random process $N$ is added to policy function to encourage agent to explore. </p>
+<p>At each step, the actor takes action $a_t$ based on pre-action state $s_t$ under current policy $\mu_t$. The reward $r_t$ is calculated based on the post-action state $s_{t+1}$. The $(s_t,a_t,r_t,s_{t+1})$ transients will be stored into the replay buffer $R$ for training two networks. A random mini-batch of $N$ transitions $(s_i,a_i,r_i,s_{i+1})$ will be sampled from replay buffer $R$ to train the critic agent through minimizing the following loss:</p>
+<script type="math/tex; mode=display">L=\frac{\underset{i}{\sum}(y_i-Q(s_i,a_i|\theta ^Q))^2}{N}</script><p>where $y_i$ is the sum of the reward $r_i$ and $\gamma$-discounted expected long-term reward under current policy starting from the next time step:</p>
+<script type="math/tex; mode=display">y_i=r_i+\gamma Q'(s_{i+1},\mu'(s_{i+1}|\theta^{\mu '})|\theta ^{Q'})</script><p>And in the actor agent the policy will be updated by gradient as follows:</p>
+<script type="math/tex; mode=display">\nabla_{\theta\mu}J\approx\frac{\underset{i}{\sum}\nabla_aQ(s,a|\theta^Q)|_{s=s_i,a=\mu(s_i)}\nabla_{\theta\mu}\mu(s|\theta^\mu)|_{s_i}}{N}</script><p>For actor agent its parameter needs to use gradient ascent while critic agent needs to minimizing its loss function with gradient descent.</p>
+<script type="math/tex; mode=display">\theta^\mu=\theta^\mu+\alpha\nabla_{\theta\mu}J</script><script type="math/tex; mode=display">\theta^Q=\theta^Q-\beta\nabla_{\theta Q}L</script><p>where $\alpha,\beta$ are  learning rates. At the end of each episode, the target networks will be soft-updated as follows:</p>
+<script type="math/tex; mode=display">\theta^{\mu'}\leftarrow\tau\theta^\mu+(1-\tau)\theta^{\mu'}</script><script type="math/tex; mode=display">\theta^{Q'}\leftarrow\tau\theta^Q+(1-\tau)\theta^{Q'}</script><p>where $\tau$ is the learning target smooth factor. This is  an important difference between DQN and DDPG as the target network will be fixed during each episode in DQN, but in DDPG it will be updated dynamically, though very slowly (smoothly) due to $\tau\ll1$.</p>
+<p>In water tank system, the pseudocode of DDPG is as follows:</p>
+<p><img src="https://shuiyuan.sjtu.edu.cn/uploads/default/original/3X/6/6/669b3f0b8c7706c7eebb8cb757200bf4a3b1e3b1.jpeg" alt="image|690x882"></p>
+<p>The state is defined as:</p>
+<script type="math/tex; mode=display">state=\bigg [\int(l_d-l_c)dt, l_d-l_c, l_c\bigg]</script><p>And the reward function is defined as:</p>
+<script type="math/tex; mode=display">reward=\begin{cases}
+-|l_d-l_c| & 0\leq l_c\leq4 \\
+-500 & else \\
+\end{cases}</script><h1 id="Simulation-Results"><a href="#Simulation-Results" class="headerlink" title="Simulation Results"></a>Simulation Results</h1><h2 id="DDPG-or-PI-ONLY"><a href="#DDPG-or-PI-ONLY" class="headerlink" title="DDPG or PI ONLY"></a>DDPG or PI ONLY</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-3-source-small.gif" alt="image"></p>
+<p>Compared with single PI control, the transient response speed is improved by DDPG agent, and the largest overshoot amplitude is only 12.6%. But we can see that in the steady state, there exists a clear bias in single DDPG control result.</p>
+<h2 id="DDPG-PI"><a href="#DDPG-PI" class="headerlink" title="DDPG+PI"></a>DDPG+PI</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-5-source-large.gif" alt="image"></p>
+<p>With the guidance of PI controller, the training process of DDPG agent is accelerated. The overshoot amplitude is only half of the amplitude in solo PI control result. The bias of solo DDPG control also disappeared and the water level converges exactly to the desired value, which means the combination of them has advantages of both PI and DDPG.</p>
+<h2 id="DDPG-amp-PI-With-Noise"><a href="#DDPG-amp-PI-With-Noise" class="headerlink" title="DDPG&amp;PI (With Noise)"></a>DDPG&amp;PI (With Noise)</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-6-source-large.gif" alt="image"></p>
+<p>For solo PI control, the impact of noise is mainly showed in the oscillation state before exactly converging to the desire level. On the contrary, the noise affects more on the transient performance in solo DDPG control, and the bias still exists.</p>
+<p>For DDPG+PI control, the noise have little influence on the whole control process, the combination has strong anti-disturbance ability. Even under noise the DDPG+PI agent’s performance is still better than single PI or DDPG control without noise.</p>
+<h2 id="Changing-Desired-Water-Level"><a href="#Changing-Desired-Water-Level" class="headerlink" title="Changing Desired Water Level"></a>Changing Desired Water Level</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-7-source-large.gif" alt="image"></p>
+<p>From my perspective, this result is the most interesting part in simulation results. First they switched the target value from 1.5$m$ to 2.5$m$, then after about 1000 seconds let the target value return to 1.5$m$. As the article said, at the first stage the PI+DDPG agent chose to follow PI controller, and we can see that they have an almost same overshoot amplitude in the figure. But at the final stage the PI+DDPG agent chose to follow DDPG control and shows an improved control performance compared with single PI control.</p>
+<h1 id="Some-of-my-opinions"><a href="#Some-of-my-opinions" class="headerlink" title="Some of my opinions"></a>Some of my opinions</h1><p>The authors’ explanation for the phenomenon above is that the DDPG+PI agent had learned in the first stage when in the final stage, so it will perform better. Since the authors haven’t provide their source code about this article yet, we are not able to know the details of their simulation. If the result is true, why the DDPG+PI agent will choose to follow PI controller at first? In my opinion, in the first stage when the system is switched from a steady state to another state, the agent’s response should be the same as what we have seen in DDPG+PI control (without noise) above, since the reward function doesn’t pay attention to the absolute value but the relative value of water level.</p>
+
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/DDPG/" rel="tag"># DDPG</a>
+              <a href="/tags/PI/" rel="tag"># PI</a>
+              <a href="/tags/Water-tank-system/" rel="tag"># Water tank system</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/13/RL-Articles/Algorithm/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yin Yi">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="YY's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/03/13/RL-Articles/Algorithm/" class="post-title-link" itemprop="url">An Article about Double Q-PID Algorithm</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2022-03-13 20:45:10" itemprop="dateCreated datePublished" datetime="2022-03-13T20:45:10-04:00">2022-03-13</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-11-14 09:21:46" itemprop="dateModified" datetime="2022-11-14T09:21:46-05:00">2022-11-14</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/RL-Articles/" itemprop="url" rel="index"><span itemprop="name">RL-Articles</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>In article <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.eswa.2019.06.066"><em>Double $Q$-PID algorithm for mobile robot control</em></a>, the authors using Double $Q$-PID algorithm in PID controllers, which is similar with DQN and DDQN.<br>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/03/13/RL-Articles/Algorithm/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/03/13/RL-Articles/Algorithm/" rel="prev" title="An Article about Double Q-PID Algorithm">
+      <i class="fa fa-chevron-left"></i> An Article about Double Q-PID Algorithm
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/02/06/hello-world/" rel="next" title="Welcome to my personal blog!">
+      Welcome to my personal blog! <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -461,6 +373,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Model-of-Two-level-Water-Tank-System"><span class="nav-number">1.</span> <span class="nav-text">The Model of Two-level Water Tank System</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Algorithm"><span class="nav-number">2.</span> <span class="nav-text">Algorithm</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Simulation-Results"><span class="nav-number">3.</span> <span class="nav-text">Simulation Results</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-or-PI-ONLY"><span class="nav-number">3.1.</span> <span class="nav-text">DDPG or PI ONLY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-PI"><span class="nav-number">3.2.</span> <span class="nav-text">DDPG+PI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-amp-PI-With-Noise"><span class="nav-number">3.3.</span> <span class="nav-text">DDPG&amp;PI (With Noise)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Changing-Desired-Water-Level"><span class="nav-number">3.4.</span> <span class="nav-text">Changing Desired Water Level</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Some-of-my-opinions"><span class="nav-number">4.</span> <span class="nav-text">Some of my opinions</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
