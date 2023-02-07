@@ -14,31 +14,38 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="In article Double $Q$-PID algorithm for mobile robot control, the authors using Double $Q$-PID algorithm in PID controllers, which is similar with DQN and DDQN.">
+  <meta name="description" content="In article On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System, DDPG is used to help PI controllers to control system (in this article the target is  main">
 <meta property="og:type" content="article">
-<meta property="og:title" content="An Article about Double Q-PID Algorithm">
-<meta property="og:url" content="http://example.com/2022/03/13/RL-Articles/Algorithm/index.html">
+<meta property="og:title" content="An article about DDPG&amp;PI Controllers">
+<meta property="og:url" content="http://example.com/post/6f503a8d.html">
 <meta property="og:site_name" content="YY&#39;s Blog">
-<meta property="og:description" content="In article Double $Q$-PID algorithm for mobile robot control, the authors using Double $Q$-PID algorithm in PID controllers, which is similar with DQN and DDQN.">
+<meta property="og:description" content="In article On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System, DDPG is used to help PI controllers to control system (in this article the target is  main">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr3_lrg.jpg">
-<meta property="og:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr4_lrg.jpg">
-<meta property="og:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr19_lrg.jpg">
-<meta property="article:published_time" content="2022-03-14T00:45:10.000Z">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif">
+<meta property="og:image" content="https://shuiyuan.sjtu.edu.cn/uploads/default/original/3X/6/6/669b3f0b8c7706c7eebb8cb757200bf4a3b1e3b1.jpeg">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-3-source-small.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-5-source-large.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-6-source-large.gif">
+<meta property="og:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-7-source-large.gif">
+<meta property="article:published_time" content="2022-03-19T01:30:00.000Z">
 <meta property="article:modified_time" content="2022-11-14T14:21:46.914Z">
 <meta property="article:author" content="Yin Yi">
-<meta property="article:tag" content="Double Q-PID">
-<meta property="article:tag" content="Robot control">
+<meta property="article:tag" content="DDPG">
+<meta property="article:tag" content="PI">
+<meta property="article:tag" content="Water tank system">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr3_lrg.jpg">
+<meta name="twitter:image" content="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif">
 
-<link rel="canonical" href="http://example.com/2022/03/13/RL-Articles/Algorithm/">
+<link rel="canonical" href="http://example.com/post/6f503a8d.html">
 
 
 <script id="page-configurations">
@@ -51,7 +58,7 @@
   };
 </script>
 
-  <title>An Article about Double Q-PID Algorithm | YY's Blog</title>
+  <title>An article about DDPG&PI Controllers | YY's Blog</title>
   
 
 
@@ -197,7 +204,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/13/RL-Articles/Algorithm/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/post/6f503a8d.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -210,7 +217,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          An Article about Double Q-PID Algorithm
+          An article about DDPG&PI Controllers
         </h1>
 
         <div class="post-meta">
@@ -220,7 +227,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2022-03-13 20:45:10" itemprop="dateCreated datePublished" datetime="2022-03-13T20:45:10-04:00">2022-03-13</time>
+              <time title="Created: 2022-03-18 21:30:00" itemprop="dateCreated datePublished" datetime="2022-03-18T21:30:00-04:00">2022-03-18</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
@@ -257,46 +264,62 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>In article <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.eswa.2019.06.066"><em>Double $Q$-PID algorithm for mobile robot control</em></a>, the authors using Double $Q$-PID algorithm in PID controllers, which is similar with DQN and DDQN.<br><span id="more"></span></p>
-<h1 id="Knowledge-before-reading-this-article"><a href="#Knowledge-before-reading-this-article" class="headerlink" title="Knowledge before reading this article"></a>Knowledge before reading this article</h1><h2 id="Q-learning"><a href="#Q-learning" class="headerlink" title="$Q$-learning"></a>$Q$-learning</h2><p>Reinforcement learning involves an agent, a set of states <em><strong>S</strong></em>, and a set <em><strong>A</strong></em> of actions per state. By performing an action <em><strong>a</strong></em> $\in$ <em><strong>A</strong></em> , the agent transitions from state to state. Executing an action in a specific state provides the agent with a reward (a numerical score).</p>
-<p>We define function $Q$ to calculates the quality of a state-action combination. The core of $Q$-learning is <em>Bellman Equation</em>, which is used to update $Q$-Function in value iteration. </p>
-<script type="math/tex; mode=display">Q^{new}(s_t,a_t)\leftarrow \underset{old\ value}{\underbrace{Q(s_t,a_t)}}+\underset{learning\ rate}{\underbrace{\alpha}}\overset{temporal\ difference}{\overbrace{[\underset{new\ value(temporal\ difference\ target)}{\underbrace{\underset{reward}{\underbrace{r_{t+1}}}+\underset{discount\ factor}{\underbrace{\gamma}}
-{\underset{estimate\ of\ optimal\ future\ value}{\underbrace{\underset{a}{max}Q_B(s_{t+1},a_{t+1})}}}}} -\underset{old\ value}{\underbrace{Q(s_t,a_t)}}]}}</script><h2 id="DQN-amp-DDQN"><a href="#DQN-amp-DDQN" class="headerlink" title="DQN &amp; DDQN"></a>DQN &amp; DDQN</h2><h3 id="DQN"><a href="#DQN" class="headerlink" title="DQN"></a>DQN</h3><p>DQN is an algorithm that combine deep learning with $Q$-learning. In traditional $Q$-learning, we usually use a matrix to save the value of $Q$ for each state-action combination(Or using function approximation in large questions). </p>
-<p>In DQN we have :</p>
-<ul>
-<li>A $Q$-estimation network</li>
-<li>A $Q$-target network</li>
-<li>An experience pool  </li>
-</ul>
-<p>In a learning period, the weight of $Q$-target network is fixed and $Q$-estimation network is updated by the value of state-action combination in $Q$-target network. At the end of this period, the weight of $Q$-target network is updated by $Q$-estimation network.</p>
-<p><strong>Disadvantage :</strong> In DQN the value of $Q$ will be overestimated, because $Q$-esitimation network is updated by $Q$-target network.</p>
-<h3 id="DDQN"><a href="#DDQN" class="headerlink" title="DDQN"></a>DDQN</h3><p>To solve the over estimation problem above, DDQN is proposed. The difference between DQN and DDQN is that, in DDQN action is selected by its value in $Q$-estimation network and then $Q$-target network will use this action to update the value of $Q$. </p>
-<h1 id="About-this-article"><a href="#About-this-article" class="headerlink" title="About this article"></a>About this article</h1><h2 id="Double-Q-learning"><a href="#Double-Q-learning" class="headerlink" title="Double Q-learning"></a>Double Q-learning</h2><p>This algorithm is very similar with DQN and DDQN. It also includes two neural networks, but they will be updated by each other. For example, if the policy uses the function $Q_A$ to choose the action the optimal action, then $Q_A$ will be updated as:</p>
-<script type="math/tex; mode=display">Q_A(s_t,a_t)\leftarrow Q_A(s_t,a_t)+\alpha[r_{t+1}+\gamma\underset{a}{max} Q_B(s_{t+1},a_{t+1})-Q_A(s_t,a_t)]</script><p>  Alternatively, if the policy uses the function $Q_B$, then it will be updated as:</p>
-<script type="math/tex; mode=display">Q_B(s_t,a_t)\leftarrow Q_B(s_t,a_t)+\alpha[r_{t+1}+\gamma\underset{a}{max} Q_A(s_{t+1},a_{t+1})-Q_B(s_t,a_t)]</script><p>  As the article says, “Since the update of $Q_A$ and $Q_B$ is done with its opposite, each update takes into consideration a different subset of the data set, thus removing the bias in the value estimation.”</p>
-<h2 id="Incremental-discretization-of-the-states-and-actions-space"><a href="#Incremental-discretization-of-the-states-and-actions-space" class="headerlink" title="Incremental discretization of the states and actions space"></a>Incremental discretization of the states and actions space</h2><p>  In this article they presented the main ideas of incremental discretization of the state space and action space developed in <a target="_blank" rel="noopener" href="https://doi.org/10.1016/J.ESWA.2017.03.002">Carlucho et al.(2017)</a>. Briefly speaking, at first they have a fairly coarse discretization of the action space $A$, then if action $a$ is selected it will be divided into two parts (or we can say it is a splitting process). As the discretization process going on, actions which have been chosen more will have higher discretization level.<br>  The final result represents the discretization of action space $A$.</p>
-<p>  <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr3_lrg.jpg" alt="image"></p>
-<h2 id="Double-Q-PID-algorithm"><a href="#Double-Q-PID-algorithm" class="headerlink" title="Double $Q$-PID algorithm"></a>Double $Q$-PID algorithm</h2><h3 id="Incremental-active-learning"><a href="#Incremental-active-learning" class="headerlink" title="Incremental active learning"></a>Incremental active learning</h3><p>  Using discretization methods above, the agent can avoid unnecessary exploration of large regions, concentrating in a more relevant space. This method may be useful in working with autonomous mobile robots.</p>
-<p>  <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr4_lrg.jpg" alt=""></p>
-<h3 id="Algorithm-statement"><a href="#Algorithm-statement" class="headerlink" title="Algorithm statement"></a>Algorithm statement</h3><p>  The pseudocode is as follows. $x,k$ are separately referred to as <em>state</em> and <em>action</em>.</p>
-<p>  <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0957417419304749-gr19_lrg.jpg" alt=""></p>
-<h2 id="Some-meaningful-results"><a href="#Some-meaningful-results" class="headerlink" title="Some meaningful results"></a>Some meaningful results</h2><ul>
-<li><p>Double $Q$-PID algorithm had quickly learned to cancel the derivative terms, which means in the simulation PID controllers were equal to PI controllers.</p>
-</li>
-<li><p>Double $Q$-PID algorithm shows its ability in robot control, especially in balance control. It has strong robustness, as it only needs to provide an approximate initial coarse discretization of the action space. This advantage enables us to use it in different kinds of control models.</p>
-</li>
-</ul>
+        <p>In article <a target="_blank" rel="noopener" href="https://doi.org/10.1109/ICIEA51954.2021.9516140"><em><strong>On the Combination of PID control and Reinforcement Learning: A Case Study with Water Tank System</strong></em></a>, DDPG is used to help PI controllers to control system (in this article the target is  maintaining the water level).<br>I will just paraphrase DDPG that written in article. But I think another blog should be written to fully explain DDPG since it contains many other algorithm about RL (On condition that I have completely understood DDPG).<br><span id="more"></span></p>
+<h1 id="The-Model-of-Two-level-Water-Tank-System"><a href="#The-Model-of-Two-level-Water-Tank-System" class="headerlink" title="The Model of Two-level Water Tank System"></a>The Model of Two-level Water Tank System</h1><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-1-source-large.gif" alt="imagine"><br>In picture above shows the basic structure of Two-level water tank system. For the $l$-th tank, the model is</p>
+<script type="math/tex; mode=display">h_l(t)=\frac{F_{inl}(t)-F_{outl}(t)}{A}</script><p>where $h_l$ is the height level of water, $A$ is the cross-sectional area of the tank, $F_{inl}$ and $F_{outl}$ represent the quantity of input and output water flow, respectively. And the whole system is gravity drained as their output water flow speeds are related to their own height of water level. Actually we can use second-order characteristics to solve this problem, but in RL training we just regard it as a black-box model.</p>
+<h1 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h1><p>The authors used DDPG with traditional PI controllers to maintain the water level, since water tank system is a continuous action space. DDPG (Deep Deterministic Policy Gradient) is a model-free off-policy Actor-Critic algorithm, combining DPG (Deterministic Policy) with DQN (Deep Q-Network). A random process $N$ is added to policy function to encourage agent to explore. </p>
+<p>At each step, the actor takes action $a_t$ based on pre-action state $s_t$ under current policy $\mu_t$. The reward $r_t$ is calculated based on the post-action state $s_{t+1}$. The $(s_t,a_t,r_t,s_{t+1})$ transients will be stored into the replay buffer $R$ for training two networks. A random mini-batch of $N$ transitions $(s_i,a_i,r_i,s_{i+1})$ will be sampled from replay buffer $R$ to train the critic agent through minimizing the following loss:</p>
+<script type="math/tex; mode=display">L=\frac{\underset{i}{\sum}(y_i-Q(s_i,a_i|\theta ^Q))^2}{N}</script><p>where $y_i$ is the sum of the reward $r_i$ and $\gamma$-discounted expected long-term reward under current policy starting from the next time step:</p>
+<script type="math/tex; mode=display">y_i=r_i+\gamma Q'(s_{i+1},\mu'(s_{i+1}|\theta^{\mu '})|\theta ^{Q'})</script><p>And in the actor agent the policy will be updated by gradient as follows:</p>
+<script type="math/tex; mode=display">\nabla_{\theta\mu}J\approx\frac{\underset{i}{\sum}\nabla_aQ(s,a|\theta^Q)|_{s=s_i,a=\mu(s_i)}\nabla_{\theta\mu}\mu(s|\theta^\mu)|_{s_i}}{N}</script><p>For actor agent its parameter needs to use gradient ascent while critic agent needs to minimizing its loss function with gradient descent.</p>
+<script type="math/tex; mode=display">\theta^\mu=\theta^\mu+\alpha\nabla_{\theta\mu}J</script><script type="math/tex; mode=display">\theta^Q=\theta^Q-\beta\nabla_{\theta Q}L</script><p>where $\alpha,\beta$ are  learning rates. At the end of each episode, the target networks will be soft-updated as follows:</p>
+<script type="math/tex; mode=display">\theta^{\mu'}\leftarrow\tau\theta^\mu+(1-\tau)\theta^{\mu'}</script><script type="math/tex; mode=display">\theta^{Q'}\leftarrow\tau\theta^Q+(1-\tau)\theta^{Q'}</script><p>where $\tau$ is the learning target smooth factor. This is  an important difference between DQN and DDPG as the target network will be fixed during each episode in DQN, but in DDPG it will be updated dynamically, though very slowly (smoothly) due to $\tau\ll1$.</p>
+<p>In water tank system, the pseudocode of DDPG is as follows:</p>
+<p><img src="https://shuiyuan.sjtu.edu.cn/uploads/default/original/3X/6/6/669b3f0b8c7706c7eebb8cb757200bf4a3b1e3b1.jpeg" alt="image|690x882"></p>
+<p>The state is defined as:</p>
+<script type="math/tex; mode=display">state=\bigg [\int(l_d-l_c)dt, l_d-l_c, l_c\bigg]</script><p>And the reward function is defined as:</p>
+<script type="math/tex; mode=display">reward=\begin{cases}
+-|l_d-l_c| & 0\leq l_c\leq4 \\
+-500 & else \\
+\end{cases}</script><h1 id="Simulation-Results"><a href="#Simulation-Results" class="headerlink" title="Simulation Results"></a>Simulation Results</h1><h2 id="DDPG-or-PI-ONLY"><a href="#DDPG-or-PI-ONLY" class="headerlink" title="DDPG or PI ONLY"></a>DDPG or PI ONLY</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-3-source-small.gif" alt="image"></p>
+<p>Compared with single PI control, the transient response speed is improved by DDPG agent, and the largest overshoot amplitude is only 12.6%. But we can see that in the steady state, there exists a clear bias in single DDPG control result.</p>
+<h2 id="DDPG-PI"><a href="#DDPG-PI" class="headerlink" title="DDPG+PI"></a>DDPG+PI</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-5-source-large.gif" alt="image"></p>
+<p>With the guidance of PI controller, the training process of DDPG agent is accelerated. The overshoot amplitude is only half of the amplitude in solo PI control result. The bias of solo DDPG control also disappeared and the water level converges exactly to the desired value, which means the combination of them has advantages of both PI and DDPG.</p>
+<h2 id="DDPG-amp-PI-With-Noise"><a href="#DDPG-amp-PI-With-Noise" class="headerlink" title="DDPG&amp;PI (With Noise)"></a>DDPG&amp;PI (With Noise)</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-6-source-large.gif" alt="image"></p>
+<p>For solo PI control, the impact of noise is mainly showed in the oscillation state before exactly converging to the desire level. On the contrary, the noise affects more on the transient performance in solo DDPG control, and the bias still exists.</p>
+<p>For DDPG+PI control, the noise have little influence on the whole control process, the combination has strong anti-disturbance ability. Even under noise the DDPG+PI agent’s performance is still better than single PI or DDPG control without noise.</p>
+<h2 id="Changing-Desired-Water-Level"><a href="#Changing-Desired-Water-Level" class="headerlink" title="Changing Desired Water Level"></a>Changing Desired Water Level</h2><p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9516033/9516034/9516140/9516140-fig-7-source-large.gif" alt="image"></p>
+<p>From my perspective, this result is the most interesting part in simulation results. First they switched the target value from 1.5$m$ to 2.5$m$, then after about 1000 seconds let the target value return to 1.5$m$. As the article said, at the first stage the PI+DDPG agent chose to follow PI controller, and we can see that they have an almost same overshoot amplitude in the figure. But at the final stage the PI+DDPG agent chose to follow DDPG control and shows an improved control performance compared with single PI control.</p>
+<h1 id="Some-of-my-opinions"><a href="#Some-of-my-opinions" class="headerlink" title="Some of my opinions"></a>Some of my opinions</h1><p>The authors’ explanation for the phenomenon above is that the DDPG+PI agent had learned in the first stage when in the final stage, so it will perform better. Since the authors haven’t provide their source code about this article yet, we are not able to know the details of their simulation. If the result is true, why the DDPG+PI agent will choose to follow PI controller at first? In my opinion, in the first stage when the system is switched from a steady state to another state, the agent’s response should be the same as what we have seen in DDPG+PI control (without noise) above, since the reward function doesn’t pay attention to the absolute value but the relative value of water level.</p>
 
     </div>
 
     
     
     
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Yin Yi
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://example.com/post/6f503a8d.html" title="An article about DDPG&amp;PI Controllers">http://example.com/post/6f503a8d.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Double-Q-PID/" rel="tag"># Double Q-PID</a>
-              <a href="/tags/Robot-control/" rel="tag"># Robot control</a>
+              <a href="/tags/DDPG/" rel="tag"><i class="fa fa-tag"></i> DDPG</a>
+              <a href="/tags/PI/" rel="tag"><i class="fa fa-tag"></i> PI</a>
+              <a href="/tags/Water-tank-system/" rel="tag"><i class="fa fa-tag"></i> Water tank system</a>
           </div>
 
         
@@ -304,10 +327,13 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2022/03/18/RL-Articles/An%20article%20about%20DDPG&PI/" rel="next" title="An article about DDPG&PI Controllers">
-      An article about DDPG&PI Controllers <i class="fa fa-chevron-right"></i>
+    <a href="/post/1ab1d1e9.html" rel="prev" title="An Article about Double Q-PID Algorithm">
+      <i class="fa fa-chevron-left"></i> An Article about Double Q-PID Algorithm
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/post/cda5e84f.html" rel="next" title="Welcome to my personal blog!">
+      Welcome to my personal blog! <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -367,7 +393,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Knowledge-before-reading-this-article"><span class="nav-number">1.</span> <span class="nav-text">Knowledge before reading this article</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-learning"><span class="nav-number">1.1.</span> <span class="nav-text">$Q$-learning</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DQN-amp-DDQN"><span class="nav-number">1.2.</span> <span class="nav-text">DQN &amp; DDQN</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#DQN"><span class="nav-number">1.2.1.</span> <span class="nav-text">DQN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DDQN"><span class="nav-number">1.2.2.</span> <span class="nav-text">DDQN</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#About-this-article"><span class="nav-number">2.</span> <span class="nav-text">About this article</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Double-Q-learning"><span class="nav-number">2.1.</span> <span class="nav-text">Double Q-learning</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Incremental-discretization-of-the-states-and-actions-space"><span class="nav-number">2.2.</span> <span class="nav-text">Incremental discretization of the states and actions space</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Double-Q-PID-algorithm"><span class="nav-number">2.3.</span> <span class="nav-text">Double $Q$-PID algorithm</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Incremental-active-learning"><span class="nav-number">2.3.1.</span> <span class="nav-text">Incremental active learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Algorithm-statement"><span class="nav-number">2.3.2.</span> <span class="nav-text">Algorithm statement</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-meaningful-results"><span class="nav-number">2.4.</span> <span class="nav-text">Some meaningful results</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Model-of-Two-level-Water-Tank-System"><span class="nav-number">1.</span> <span class="nav-text">The Model of Two-level Water Tank System</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Algorithm"><span class="nav-number">2.</span> <span class="nav-text">Algorithm</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Simulation-Results"><span class="nav-number">3.</span> <span class="nav-text">Simulation Results</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-or-PI-ONLY"><span class="nav-number">3.1.</span> <span class="nav-text">DDPG or PI ONLY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-PI"><span class="nav-number">3.2.</span> <span class="nav-text">DDPG+PI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DDPG-amp-PI-With-Noise"><span class="nav-number">3.3.</span> <span class="nav-text">DDPG&amp;PI (With Noise)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Changing-Desired-Water-Level"><span class="nav-number">3.4.</span> <span class="nav-text">Changing Desired Water Level</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Some-of-my-opinions"><span class="nav-number">4.</span> <span class="nav-text">Some of my opinions</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -477,6 +503,8 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
