@@ -88,6 +88,13 @@
   </url>
   
   <url>
+    <loc>http://yy-02.github.io/tags/NCSU/</loc>
+    <lastmod>2023-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://yy-02.github.io/tags/DDPG/</loc>
     <lastmod>2023-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,13 +110,6 @@
   
   <url>
     <loc>http://yy-02.github.io/tags/Water-tank-system/</loc>
-    <lastmod>2023-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://yy-02.github.io/tags/NCSU/</loc>
     <lastmod>2023-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
