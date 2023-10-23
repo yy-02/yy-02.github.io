@@ -4,7 +4,7 @@
   <url>
     <loc>http://yy-02.github.io/about/index.html</loc>
     
-    <lastmod>2023-02-22</lastmod>
+    <lastmod>2023-09-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://yy-02.github.io/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,42 +75,42 @@
   
   <url>
     <loc>http://yy-02.github.io/tags/Double-Q-PID/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/tags/Robot-control/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/tags/NCSU/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/tags/DDPG/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/tags/PI/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/tags/Water-tank-system/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -119,14 +119,14 @@
   
   <url>
     <loc>http://yy-02.github.io/categories/RL-Articles/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yy-02.github.io/categories/NCSU-exchange-life/</loc>
-    <lastmod>2023-09-07</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
